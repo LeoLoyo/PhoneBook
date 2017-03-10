@@ -1,0 +1,43 @@
+<ion-content class="has-header">
+
+  <ion-refresher 
+
+    pulling-text="Actualizar..."
+    
+    on-refresh="vm.ObtenerPersonas()">
+  
+  </ion-refresher>
+
+  <div class="bar bar-header bar-balanced item-input-inset">
+  
+  <label class="item-input-wrapper">
+  
+    <i class="icon ion-android-search placeholder-icon"></i>
+  
+    <input type="text" ng-model="filter" placeholder="Buscar por: nombre o apellido">
+
+  </label>
+
+</div>
+
+  <ion-list>
+
+    <ion-item class="item-avatar" ng-repeat="persona in vm.personas | filter: filter" ui-sref=app.persona({rut:persona.rut})>
+
+      <img src="http://picturesloves.com/wp-content/uploads/2016/02/fotos-para-perfil-de-facebook-avatares-2016.jpg" alt="">
+
+      <h2>{{persona.nombre?persona.nombre + " " + persona.apellido :persona.error}}</h2>
+      <span ng-if="persona.rut"> {{ 'RUT: ' + persona.rut }} </span>
+      <p>
+
+        <strong>Direccion:</strong>
+
+        {{persona.direccion.calle}}, {{ persona.direccion.numero}}, {{persona.direccion.comuna.nombre}}
+
+      </p>
+    
+    </ion-item>
+
+  </ion-list>
+  
+</ion-content>

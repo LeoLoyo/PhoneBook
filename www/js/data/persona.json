@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "nombre": "Omar",
+        "apellido": "Trapaga",
+        "telefono": 56221984968,
+        "rut": "21984968-0",
+        "direccion": {
+            "calle": "Av. Matta",
+            "numero": 143,
+            "comuna": {
+                "id": 16,
+                "nombre": "Santiago"
+            }
+        },
+        "activo" : 1
+    },
+    {
+        "id": 2,
+        "nombre": "Juan Manuel",
+        "apellido": "Gonzalez",
+        "telefono": 56967008115,
+        "rut": "6700811-1",
+        "direccion": {
+            "calle": "Los aromos",
+            "numero": 1111,
+            "comuna": {
+                "id": 13,
+                "nombre": "Coronel"
+            }
+        },
+        "activo" : 1
+    },
+    {
+        "id": 3,
+        "nombre": "Ronald",
+        "apellido": "Rodriguez",
+        "telefono": 567170178,
+        "rut": "17017638-3",
+        "direccion": {
+            "calle": "Esmeralda",
+            "numero": 302,
+            "comuna": {
+                "id": 23,
+                "nombre": "Ñuñoa"
+            }
+        },
+        "activo" : 1
+    },
+    {
+        "id": 4,
+        "nombre": "Fransico",
+        "apellido": "Arévalo",
+        "telefono": 56288727695,
+        "rut": "8872769-k",
+        "direccion": {
+            "calle": "Cisnes",
+            "numero": 456,
+            "comuna": {
+                "id": 7,
+                "nombre": "Concón"
+            }
+        },
+        "activo" : 0
+    },
+    {
+        "id": 5,
+        "nombre": "Cristian",
+        "apellido": "Armesto",
+        "telefono": 56912131233,
+        "rut": "12131233-1",
+        "direccion": {
+            "calle": "Pasaje el manzano",
+            "numero": 1212,
+            "comuna": {
+                "id": 4,
+                "nombre": "General Lagos"
+            }
+        },
+        "activo" : 1
+    },
+    {
+        "id": 6,
+        "nombre": "Marjorie",
+        "apellido": "Rubin",
+        "telefono": 56916770935,
+        "rut": "16770935-4",
+        "direccion": {
+            "calle": "Cachuingue",
+            "numero": 1667,
+            "comuna": {
+                "id": 2,
+                "nombre": "Camarones"
+            }
+        },
+        "activo" : 1
+    },
+    {
+        "id": 7,
+        "nombre": "Daniel",
+        "apellido": "Villa",
+        "telefono": 56298708904,
+        "rut": "9870890-1",
+        "direccion": {
+            "calle": "Los boldos",
+            "numero": 23,
+            "comuna": {
+                "id": 10,
+                "nombre": "Quintero"
+            }
+        },
+        "activo" : 1
+    },
+    {
+        "id": 8,
+        "nombre": "Paulina",
+        "apellido": "Yañez",
+        "telefono": 56812343275,
+        "rut": "6700811-1",
+        "direccion": {
+            "calle": "Av. Colón",
+            "numero": 1209,
+            "comuna": {
+                "id": 15,
+                "nombre": "Florida"
+            }
+        },
+        "activo" : 1
+    },
+    {
+        "id": 9,
+        "nombre": "Katherine",
+        "apellido": "Caso",
+        "telefono": 56951475645,
+        "rut": "5147564-k",
+        "direccion": {
+            "calle": "Av. Las torres",
+            "numero": 3435,
+            "comuna": {
+                "id": 19,
+                "nombre": "Cerro Navia"
+            }
+        },
+        "activo" : 1
+    },
+    {
+        "id": 10,
+        "nombre": "Rodrigo",
+        "apellido": "Lopez",
+        "telefono": 56299910504,
+        "rut": "9991050-k",
+        "direccion": {
+            "calle": "Los tres antonios",
+            "numero": 543,
+            "comuna": {
+                "id": 22,
+                "nombre": "Macul"
+            }
+        },
+        "activo" : 1
+    }
+]

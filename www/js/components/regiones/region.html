@@ -1,0 +1,42 @@
+<ion-view>
+	
+	<ion-content class="has-header">
+		<ion-list>
+
+			<ion-item class="item-thumbnail-left">
+				
+				<img src="https://lh3.googleusercontent.com/MOf9Kxxkj7GvyZlTZOnUzuYv0JAweEhlxJX6gslQvbvlhLK5_bSTK6duxY2xfbBsj43H=w300" alt="">
+				
+				<strong>Region :</strong> {{vm.region.nombre}}
+
+				<p>
+
+					<strong> Comunas:</strong>
+
+				</p>
+
+				<p ng-repeat="comuna in vm.region.comunas"> {{$index}} - {{comuna.nombre}}</p>
+			
+			</ion-item>	
+		
+		</ion-list>
+		
+		<ion-list class="">
+			
+			<strong>Habitantes :</strong>
+			
+			<ion-list>
+			
+				<ion-item class="item-avatar" ng-repeat="habitante in vm.habitantes" ui-sref="app.persona({rut:habitante.rut})">
+					
+					<img src="http://picturesloves.com/wp-content/uploads/2016/02/fotos-para-perfil-de-facebook-avatares-2016.jpg" alt="">
+
+					<h2>{{habitante.nombre}}</h2>
+				
+				</ion-item>
+			
+			</ion-list>
+
+	</ion-content>
+
+</ion-view>

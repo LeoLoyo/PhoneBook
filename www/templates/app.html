@@ -1,0 +1,84 @@
+<ion-view>
+
+	<ion-side-menus>
+
+	    <ion-side-menu-content edge-drag-threshold="true" drag-content="true">
+
+			<ion-nav-bar class="bar-balanced" align-title="center">				
+
+			    <ion-nav-buttons side="left">
+
+	              <button class="button button-clear button-icon ion-navicon" menu-toggle="left"></button>
+			          
+			    </ion-nav-buttons>
+			    <ion-nav-title>
+					PhoneBook
+			    </ion-nav-title>
+			    				
+			</ion-nav-bar>
+
+
+
+	        <ion-content>
+			
+				<ion-nav-view name="content"></ion-nav-view>
+
+			</ion-content>
+			
+		</ion-side-menu-content>
+
+		<ion-side-menu>
+				<ion-side-menu side="left">
+			
+			<ion-pane>
+
+				<ion-content class="sidebar dark-bg" scroll="false">
+
+				  	<ion-list>
+
+				  		<ion-item>
+
+					  		<figure>
+
+						  		<img src="http://www.cursor.cl/public/img/logotipo.png" alt="" ng-style={'width':'80%'}>
+					  			
+					  		</figure>
+				  		
+				  		</ion-item>
+				  		
+				  		<ion-item class="" ui-sref="cursor" menu-close>
+
+							<i class="icon ion-home padding"></i></div>
+
+							INICIO
+				  		
+				  		</ion-item>
+				  		
+				  		<ion-item class="" ui-sref="app.personas" menu-close>
+						
+							<i class="icon ion-person padding"></i>
+				  		
+				  			PERSONAS
+				  		
+				  		</ion-item>
+				  		
+				  		<ion-item class="" ui-sref="app.regiones" menu-close>
+
+							<i class="icon ion-pin padding"></i>
+
+				  			REGIONES
+				  		
+				  		</ion-item>
+
+
+				  	</ion-list>
+			
+				</ion-content>
+			
+			</ion-pane>
+
+		</ion-side-menu>
+	
+	</ion-side-menus>
+
+</ion-view>

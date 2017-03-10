@@ -1,0 +1,51 @@
+components/personas.module.js
+<!DOCTYPE html>
+
+<html ng-app="PhoneBook">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>PhoneBook</title>
+
+    <link rel="manifest" href="manifest.json">
+    
+<!--     <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script> -->
+
+    <!-- compiled css output -->
+
+    <link href="css/ionic.app.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    
+    <ion-nav-view></ion-nav-view>
+    <!-- ionic/angularjs js -->
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.run.js"></script>
+
+    <script src="js/app.route.js"></script>
+    
+    <script src="js/components/personas/personas.controller.js"></script>
+    
+    <script src="js/components/regiones/regiones.controller.js"></script>
+
+  </body>
+
+</html>

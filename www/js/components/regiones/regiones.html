@@ -1,0 +1,41 @@
+<ion-view>
+
+	<ion-content class="has-header">
+
+		<ion-refresher 
+
+	      pulling-text="Actualizar..."
+	      
+	      on-refresh="vm.ObtenerRegiones()">
+	    
+	    </ion-refresher>
+
+	    <div class="bar bar-header bar-balanced item-input-inset">
+	    
+		    <label class="item-input-wrapper">
+		    
+		      <i class="icon ion-android-search placeholder-icon"></i>
+		    
+		      <input type="text" ng-model="filter" placeholder="Buscar por: nombre">
+
+		    </label>
+
+		</div>
+
+		<ion-list>
+			
+			<ion-item class="item-thumbnail-left" ng-repeat="region in vm.regiones | filter:filter" ui-sref="app.region({nombre:region.nombre})">
+
+				<img src="https://lh3.googleusercontent.com/MOf9Kxxkj7GvyZlTZOnUzuYv0JAweEhlxJX6gslQvbvlhLK5_bSTK6duxY2xfbBsj43H=w300" alt="">
+
+				<h2>{{ region.nombre ? region.nombre : region.error }}</h2>
+
+				<p><strong>Numero de Comunas:</strong> {{region.comunas.length}}</p>			
+
+			</ion-item>
+		
+		</ion-list>
+
+	</ion-content>
+
+</ion-view>

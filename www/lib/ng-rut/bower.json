@@ -1,0 +1,41 @@
+{
+  "name": "ng-rut",
+  "title": "ngRut",
+  "version": "1.1.2",
+  "description": "Chilean RUT utils for Angular",
+  "authors": [
+    "Santiago G. Marín <santiago@finaldevstudio.com>"
+  ],
+  "main": [
+    "dist/ng-rut.min.js",
+    "dist/ng-rut.js"
+  ],
+  "keywords": [
+    "angular",
+    "rut",
+    "chilean",
+    "chile",
+    "validator",
+    "utils",
+    "filter",
+    "service"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/FinalDevStudio/ng-rut",
+  "ignore": [
+    "karma.conf.js",
+    "node_modules",
+    "package.json",
+    "gulpfile.js",
+    ".travis.yml",
+    ".gitignore",
+    ".jshintrc",
+    "README.md",
+    "LICENSE",
+    "example",
+    "tests",
+    "*.log",
+    "test",
+    "src"
+  ]
+}

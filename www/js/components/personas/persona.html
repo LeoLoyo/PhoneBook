@@ -1,0 +1,47 @@
+<ion-view>
+	
+	<ion-pane>
+
+		<ion-content class="has-header">
+			
+			<ion-list class="card">
+				
+				<ion-item class="item-avatar item-button-right">
+				
+					<img src="http://youpix.virgula.uol.com.br/wp-content/uploads/2011/10/1.jpg" alt="Perfil">
+				
+					<h2>{{vm.persona.nombre}} {{vm.persona.apellido}}</h2>
+
+					<p>RUT: {{ vm.persona.rut }} <span ng-class="vm.persona.rut?'balanced':'assertive'">{{ vm.persona.rut_valido?'Valido':'Incorrecto' }}<span></p>
+
+					<button class="button button-clear">
+					 	
+					 	<i class="icon " ng-class="vm.persona.activo === 1 ? 'ion-checkmark-circled' :'ion-close-circled'"></i>
+					 	
+					 	<strong>{{vm.persona.activo==1?'ACTIVO':'NO ACTIVO'}}</strong>
+					 	
+				 	</button>
+
+				</ion-item>	
+				
+				<ion-item class="item-body">
+					
+					<h2>Telefono:</h2>
+
+					<p> {{vm.persona.telefono}} <span ng-class="vm.persona.telefono_valido?'balanced':'assertive'">{{vm.persona.telefono_valido?'Valido':'incorrecto'}}<span></p>
+										
+					<h2>Direccion:</h2>
+					
+					<p> {{vm.persona.direccion.calle + ', ' + vm.persona.direccion.comuna.nombre +', ' + vm.persona.direccion.numero }}</p>
+
+					<img class="full-image" src="https://static.betazeta.com/www.fayerwayer.com/up/2016/11/Google-Maps-Portada-960x623.jpg" alt="mapa">
+				
+				</ion-item>	
+
+			</ion-list>
+
+		</ion-content>
+
+	</ion-pane>
+
+</ion-view>

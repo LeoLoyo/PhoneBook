@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "nombre": "ARICA Y PARINACOTA",
+        "comunas": [
+            {
+                "id": 1,
+                "nombre": "Arica"
+            }, {
+                "id": 2,
+                "nombre": "Camarones"
+            }, {
+                "id": 3,
+                "nombre": "Putre"
+            }, {
+                "id": 4,
+                "nombre": "General Lagos"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "VALPARAÍSO",
+        "comunas": [
+            {
+                "id": 5,
+                "nombre": "Valparaíso"
+            }, {
+                "id": 6,
+                "nombre": "Casablanca"
+            }, {
+                "id": 7,
+                "nombre": "Concón"
+            }, {
+                "id": 8,
+                "nombre": "Juan Fernández"
+            }, {
+                "id": 9,
+                "nombre": "Puchuncaví"
+            }, {
+                "id": 10,
+                "nombre": "Quintero"
+            }, {
+                "id": 11,
+                "nombre": "Viña del Mar"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "DEL BIOBÍO",
+        "comunas": [
+            {
+                "id": 12,
+                "nombre": "Concepción"
+            }, {
+                "id": 13,
+                "nombre": "Coronel"
+            }, {
+                "id": 14,
+                "nombre": "Chiguayante"
+            }, {
+                "id": 15,
+                "nombre": "Florida"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "METROPOLITANA DE SANTIAGO",
+        "comunas": [
+            {
+                "id": 16,
+                "nombre": "Santiago"
+            }, {
+                "id": 17,
+                "nombre": "Camarones"
+            }, {
+                "id": 18,
+                "nombre": "Cerrillos"
+            }, {
+                "id": 19,
+                "nombre": "Cerro Navia"
+            }, {
+                "id": 20,
+                "nombre": "Conchalí"
+            }, {
+                "id": 21,
+                "nombre": "Estación Central"
+            }, {
+                "id": 22,
+                "nombre": "Macul"
+            }, {
+                "id": 23,
+                "nombre": "Ñuñoa"
+            }, {
+                "id": 24,
+                "nombre": "Peñalolén"
+            }, {
+                "id": 25,
+                "nombre": "Providencia"
+            }, {
+                "id": 26,
+                "nombre": "Pudahuel"
+            }, {
+                "id": 27,
+                "nombre": "Recoleta"
+            }, {
+                "id": 28,
+                "nombre": "Vitacura"
+            }
+        ]
+    }
+]
