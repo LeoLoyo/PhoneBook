@@ -11,15 +11,13 @@
 
     app.constant('$ionicLoadingConfig', { template :'<ion-spinner icon="spiral"></ion-spinner>' })
 
-    app.constant('Server', { host : 'http://www.cargomercado.com', port : '3000' })
-
-    Run.$injec = ['$ionicPlatform', '$state', 'Server', '$ionicPopup', '$ionicHistory'];
+    Run.$injec = ['$ionicPlatform', '$state', '$ionicPopup', '$ionicHistory'];
     
     API.$inject = ['$http','$ionicLoading'];
     
     AppCtrl.$inject = [];
 
-    function Run($ionicPlatform, $state, Server, $ionicPopup, $ionicHistory, $timeout) {
+    function Run($ionicPlatform, $state, $ionicPopup, $ionicHistory, $timeout) {
     
         $ionicPlatform.ready(function () {
             if (window.cordova && window.cordova.plugins.Keyboard) {
@@ -55,9 +53,11 @@
         self.getData = function(recurso){
     
             $ionicLoading.show();
-var url = recurso==="persona"?'/js/data/persona.json':'/js/data/regiones.json';
-            // return $http.get('https://private-de931-phonebooktest.apiary-mock.com/' + recurso).then(
-            return $http.get(url).then(
+            
+            // var url = recurso==="persona"?'/js/data/persona.json':'/js/data/regiones.json';
+            
+            return $http.get('https://private-de931-phonebooktest.apiary-mock.com/' + recurso).then(
+            // return $http.get(url).then(
     
                 function successCallback(res) {
 
